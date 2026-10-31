@@ -5,6 +5,7 @@ from functools import partial
 from typing import List, Match, Union, BinaryIO, Optional, Callable
 
 import pyrogram
+from pyrogram.errors import FloodPremiumWait
 from pyrogram import raw, enums, types, utils
 from pyrogram.types.pyromod import ListenerTypes
 from pyrogram.errors import MessageIdsEmpty, PeerIdInvalid, ChannelPrivate, ChannelInvalid, FloodWait
